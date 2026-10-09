@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(10, 10, 10);
+    margin: 0;
+    padding: 0;
+}
+.face img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+
+}
+
+.face{
+    align-items: center;
+    justify-content: center;
+
+}
+.trackspace{
+    width: 1880px;
+    height: 850px;
+}
+
+#demo {
+    color: white;
+}
+
+#info{
+    color: white;
+
+}
+
+.container{
+
+    display: flex;
+}
+.info-box{
+ padding: 15px;
+ margin: 50px;
+ border: 1px solid white;
+ border-radius: 10px;
+}
+section {
+    min-height: 100vh;
+}
+.logos{
+    display: flex;
+    gap: 50px;
+}
+.logos img{
+    height: 110px;
+    width: 120px;
+}
+#jslogo{
+    height: 113px;
+    width: 140px;
+}
+
+#phplogo{
+    height: 90px;
+    width: 130px;
+}
+
+#myadminlogo{
+    height: 90px;
+    width: 130px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #201f1f;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.html, .css, .js, .php, .mysql, .myadmin, .msserv{
+    display: none;
+}
+
