@@ -22,8 +22,8 @@ changeImage(x, y);
 function changeImage(x, y) {
     let image = document.querySelector('.face img');
 
-    let centerX = 1000;
-    let centerY = 450;
+    let centerX = 968;
+    let centerY = 320;
 
     let distanceX = x - centerX;
     let distanceY = y - centerY;
@@ -41,10 +41,13 @@ function changeImage(x, y) {
 
         if (distanceY > 0) {
             image.src = "assets/images/gabdown.png";
+            followMe();
         } else {
             image.src = "assets/images/gabup.png";
         }
-
-    
 }
+}
+
+function followMe(){
+let contacts 
 }
